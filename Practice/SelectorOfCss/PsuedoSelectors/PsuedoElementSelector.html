@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Class Selector</title>
+</head>
+<style>
+    h1{
+        color: red;
+    }
+   h1::before{
+    content:"~" ;
+   }
+   h1::after{
+    content: "!";
+   }
+   p::first-letter{
+    font-size: 20px;
+    color: violet;
+   }
+   p::first-line{
+    font-size: 15px;
+    color: turquoise;
+   }
+   p::selection{
+    background-color: yellowgreen;
+    color: black;
+   }
+
+</style>
+<body>
+    <h1>Psuedo Class Selector</h1>
+    <!-- Psuedo class selector is used to style elements based on their state -->
+    <p id="paraOne">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <a href="http://facebook.com">I Am Facebook</a>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adjacent sibling selector</title>
+  </head>
+  <style>
+    .ASA + P + p + p {
+      background-color: tomato;
+    }
+  </style>
+  <body>
+    <!-- Adjacent sibling selector ka use select tag ke baju vale tag ko select karne me use hota he  -->
+    <h1>Adjacent sibling selector</h1>
+    <!-- selecter tag ke pichhe vale tag ke par hi kam karta he age vale pe nhi karta    -->
+    <div class="ASA">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem
+        corporis repudiandae distinctio omnis commodi quo.
+      </p>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi cum,
+        beatae voluptatibus asperiores facilis molestiae?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
+        tenetur quod. Eveniet aperiam provident quia.
+      </p>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facere
+      amet asperiores non delectus perspiciatis.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facere
+      amet asperiores non delectus perspiciatis.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facere
+      amet asperiores non delectus perspiciatis.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facere
+      amet asperiores non delectus perspiciatis.
+    </p>
+  </body>
+</html>
