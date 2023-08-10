@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.row1{
+    
+    height: 400px;
+    width: 400px;
+    border-collapse: collapse;
+}
+.row1 tr{
+    
+    text-align: center;
+    border: 2px solid green;
+}
+
+.row2 tr:nth-child(2n){
+    background-color: aqua;
+}
+.row2{
+    
+    height: 400px;
+    width: 400px;
+    border-collapse: collapse;
+}
+.row2 tr{
+    
+    text-align: center;
+    border: 2px solid green;
+}
+.row3 tr:nth-child(n+5){
+    background-color: rgb(64, 0, 255);
+}.row3{
+    
+    height: 400px;
+    width: 400px;
+    border-collapse: collapse;
+}
+.row3 tr{
+    
+    text-align: center;
+    border: 2px solid green;
+}
+.row4 tr:nth-child(2n+1){
+    background-color: rgb(255, 0, 140);
+}.row4{
+    
+    height: 400px;
+    width: 400px;
+    border-collapse: collapse;
+}
+.row4 tr{
+    
+    text-align: center;
+    border: 2px solid green;
+}
+.row5 tr:nth-child(3n){
+    background-color: rgb(145, 255, 0);
+}
+.row5{
+    
+    height: 400px;
+    width: 400px;
+    border-collapse: collapse;
+}
+.row5 tr{
+    
+    text-align: center;
+    border: 2px solid green;
+}
+.row6 tr:nth-child(odd){
+    background-color: rgb(255, 98, 0);
+}
+.ro6{
+    
+    height: 400px;
+    width: 400px;
+    border-collapse: collapse;
+}
+.row6 tr{
+    
+    text-align: center;
+    border: 2px solid green;
+}
+.row7 tr:nth-child(even){
+    background-color: rgb(212, 0, 255);
+}
+.row7{
+    
+    height: 400px;
+    width: 400px;
+    border-collapse: collapse;
+}
+.row7 tr{
+    
+    text-align: center;
+    border: 2px solid green;
+}
+

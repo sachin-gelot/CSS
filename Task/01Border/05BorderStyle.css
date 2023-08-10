@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    margin: 20px;
+}
+div{
+    margin: 20px;
+}
+.border{
+   
+   border: 2px solid palevioletred;
+   
+}
+.border01{
+    border: 2px dashed rgb(147, 38, 38);
+ 
+}
+.border02{
+    border: 2px dotted rgb(202, 199, 34);
+    
+    
+    
+    
+  }
+.border03{
+    border: 10px double rgb(54, 25, 168);
+
+}
+.border04{
+    
+border: 10px ridge rgb(227, 196, 16);
+
+}
+.border05{
+    
+border: 10px inset rgb(32, 233, 96);
+
+}
+.border06{
+    
+border: 10px groove rgb(231, 21, 206);
+
+}

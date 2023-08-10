@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    margin: 20px;
+}
+div{
+    margin: 20px;
+}
+.border{
+   border-radius: 40px; 
+   border: 10px solid blue;
+}
+.border01{
+ border-top-left-radius: 40px;
+ border: 10px solid blue;
+ 
+}
+.border02{
+    border-top-right-radius: 40px;
+border: 10px solid blue;
+}
+.border03{
+    border-bottom-left-radius: 40px;
+border: 10px solid blue;
+}
+.border04{
+    border-bottom-right-radius: 40px;
+    border: 10px solid blue;
+
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.orderlist li{
+    
+   margin: 0 auto; 
+   width: 50px;
+   list-style-type: none;
+}
+.unorderlist li{
+    list-style-type: disc;
+    width: 50px;
+    margin: 0 auto; 
+    background-color: aqua;
+}
+.data li{
+    list-style-type:armenian;
+    width: 50px;
+    margin: 0 auto; 
+    background-color: rgb(234, 70, 236);
+}
+.unorderlist li{
+    list-style-type:georgian;
+    margin: 0 auto; 
+    width: 50px;
+    background-color: aqua;
+}

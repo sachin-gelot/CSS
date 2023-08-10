@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    margin: 20px;
+}
+div{
+    margin: 20px;
+}
+.border{
+   
+   border: 2px solid palevioletred;
+}
+.border01{
+ 
+ border-top: 3px solid turquoise;
+ 
+}
+.border02{
+    
+border-bottom: 2px solid darkcyan;
+}
+.border03{
+    
+border-left: 2px solid darkolivegreen;
+}
+.border04{
+    
+border-right: 2px solid lightcoral;
+}

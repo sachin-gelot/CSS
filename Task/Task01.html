@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Alice&family=Edu+SA+Beginner&family=Noto+Sans+Pahawh+Hmong&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .nav{
+        margin: 5px auto;
+        text-align: center;
+        display: flex;
+        border: 2px solid gray;
+        justify-content: space-between;
+    }
+    img{
+        
+        width: 100%;
+        height: 400px;
+    }
+    .nav p{
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: oblique;
+    }
+    .photo1{
+        border: 3px solid gray;
+        width: 33.33%;
+        
+        margin: 5px 10px;
+    }
+    .photo2{
+        border: 3px solid gray;
+        width: 33.33%;
+        
+        margin: 5px 10px;
+    }
+    .photo3{
+        border: 3px solid gray;
+        width: 33.33%;
+        
+        margin: 5px 10px;
+    }
+    details{
+        font-family: 'Alice', serif;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    }
+    /* body{
+        border: 5px solid green;
+    } */
+    h1{
+        width: 100%;
+        text-align: center;
+        margin: 20px;
+    }
+</style>
+<body>
+    <h1>Shopping</h1>
+    <div class="nav">
+       
+        
+            
+        
+        <div class="photo1">
+            <img src="../Image/shirt2.jpg" alt="">
+            <hr>
+            <p>Dennis Lingo Men's Cotton Checkered Button Down Slim Fit Casual Shirt</p>
+            <p>₹:499.00</p>
+            <details>
+                Material: 100% Pure Cottton, pre washed for a comfy soft finish and rich look and guaranteed 0% shrinkage post washing. These Dennis Lingo Shirts are built on the pillars of quality, reliability and durability to offer you men's lifestyle essentials that never go out of fashion
+            </details>           
+        </div>
+        <div class="photo2">
+            <img src="../Image/shirt3.jpg" alt="">
+            <hr>
+            <p>Dennis Lingo Men's Slim Fit Shirt</p>
+            <p>₹:599.00</p>
+                    <details>
+                        Fit Type - Modern Slim Fit: A Good balance between Wearing Comfort and Slim Fit look. Size chart - S-38, M-40, L-42, XL-44, XXL-46. Please Check the Size chart before Ordering for the Perfect Fit
+                    </details>
+        </div>
+        <div class="photo3">
+            <img src="../Image/shirt4.jpg" alt="">
+            <hr>
+            <p>The Indian Garage Co Men's Slim Fit Shirt</p>
+            <p>₹:999.00</p>
+            <details>
+                Material: 100% Pure Cottton, pre washed for a comfy soft finish and rich look and guaranteed 0% shrinkage post washing. These Dennis Lingo Shirts are built on the pillars of quality, reliability and durability to offer you men's lifestyle essentials that never go out of fashion
+            </details>            
+        </div>
+    </div>
+</body>
+</html>

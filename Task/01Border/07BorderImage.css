@@ -1,0 +1,10 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border01{
+    border: 50px solid;
+    border-image: url(../../css/Practice/IMG/nbg1.jpg) 1;
+    border-image-repeat: none;
+}

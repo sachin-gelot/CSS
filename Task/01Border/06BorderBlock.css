@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    margin: 20px;
+}
+div{
+    margin: 20px;
+}
+.border{
+   
+   border: 2px solid palevioletred;
+   
+}
+.border01{
+    border-block-start: solid;
+ 
+}
+.border02{
+    border-block-start-width: 20px solid; 
+  }
+.border03{
+ border-block-start-style: dashed;   
+
+}
+.border04{
+    
+    border-block-start-style: dotted; 
+
+}
+.border05{
+    
+    border-block-start-style: double; 
+
+}
+.border06{
+    
+    border-block-start-style: none; 
+
+}
+.border07{
+    
+    border-block-start-style: solid; 
+
+}
+.border08{
+    
+    border-block-start-style: groove; 
+
+}
+.border09{
+    
+    border-block-start-style: hidden; 
+
+}
