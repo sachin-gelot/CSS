@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Edu+SA+Beginner&family=Noto+Sans+Pahawh+Hmong&family=Noto+Serif:ital,wght@1,900&family=Tilt+Prism&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: #b13941;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+    
+}
+.list{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px;
+     list-style: none;
+     
+}
+.img{
+    transition: all 2s ease-in-out;
+}
+.img:hover
+{
+    transform: rotate3d(1,1,1,360deg);
+}
+.anker{
+    text-decoration: none;
+   
+   font-size: 20px;
+    color: white;
+
+}
+.section{
+    background: url(../IMG/banner.png) no-repeat center center/cover;
+    z-index: 0.2;
+    opacity: 1;
+} 
+.h11{
+    text-align: center;
+    font-size: 80px;
+    padding: 72px 0px;
+    color: white;
+    font-family: "PT Serif";
+}
+.para1{
+    text-align: center;
+    padding: 38px 100px;
+    margin: 10px 200px;
+    font-size: 21px;
+    color: white;
+    width: 73%;
+    font-family: "PT Serif";
+    justify-content: center;
+    align-items: center;
+
+
+}
+.section{
+    text-align: center;
+}
+.button{ 
+    margin: 10px 0px 100px 0px;
+    height: 40px;
+    padding: 0px 85px;
+    background-color: #b13941;
+    color: #f6f1f1;
+    font-family: "PT Serif";
+}
+.button:hover{ 
+    margin: 10px 0px 55px 0px;
+    height: 35px;
+    padding: 0px 85px;
+    background-color: #f7f4f4;
+    color: #e10a0a;
+    font-family: "PT Serif";
+    border-radius: 10px;
+}
+
+.container1{
+display: flex;
+}
+.section1{
+    background-color: #b13941;
+}
+.img1{
+    padding: 10px;
+    margin: 70px 50% 40px 100px;
+    height: 230px;
+    width: 214px;
+    
+    margin-right: 127px;
+    
+}
+.content{
+    
+
+padding: 0px 0px 30px 0px;
+
+}
+.h3{
+    margin-top: 30px;
+    padding: 60px 0px 10px 00px;
+    color: white;
+    font-size: 35px;
+    font-family: "PT Serif";
+}
+.image{
+    margin-left: 100px;
+}
+.h1{
+    padding: 0px 0px 0px 0px;
+    font-family: "PT Serif";
+    color: white;
+    font-size: 60px;
+}
+.para{
+    padding: 20px 100px 20px 0px;
+    font-family: "PT Serif";
+    color: white;
+}
+.buttton1{
+    
+    height: 35px;
+    padding: 0px 85px;
+    color: #b13941;
+    
+}
+.buttton1:hover{
+    
+    height: 35px;
+    padding: 0px 85px;
+    color: #c9b8b9;
+    background-color: #b13941;
+    font-family: 'Alice', serif;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Tilt Prism', cursive;
+    
+}
+.section2{
+    display: flex;
+}
+.cup{
+    width: 30%;
+    
+    
+    
+}
+.cup-image{
+    
+    width: 100%;
+    
+    
+}
+.content2{
+    background-color: #f8eed3;
+    width: 100%;
+}
+.header2{
+ margin: 10px 20px 10px 100px;
+ font-size: 80px;
+}
+.para3{
+    margin: 10px 100px 10px 100px;
+    padding: 0px 100px 0px 0px;
+    font-size: 20px;
+}
+.section2 a{
+    
+    margin: 10px 20px 10px 100px;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+.section3{
+    width: 100%;
+    text-align: center;
+    background-color: #b13941;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    display: flex;
+    border: 3px solid green;
+    margin: 10px;
+    
+}
+.box2{
+    display: flex;
+    border: 3px solid green;
+    margin: 10px;
+    
+}
+.box3{
+    display: flex;
+    border: 3px solid green;
+    margin: 10px;
+    
+}
+.list-item1{
+    background-color: white;
+    padding-top: 100px;
+}
+.list-item2{
+    background-color: white;
+    padding-top: 100px;
+}
+.list-item3{
+    background-color: white;
+    padding-top: 100px;
+}
+.item1{
+    
+   align-items: center;
+   justify-content: center;
+   align-items: center;
+}
+.item2{
+    
+   align-items: center;
+   justify-content: center;
+
+   text-align: center;
+   
+}
+.item3{
+    
+    align-items: center;
+    justify-self: center;
+    align-items: center;
+    
+}
