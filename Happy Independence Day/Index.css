@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.box{
+    height: 100vh;
+    width: 100vw;
+    margin: 40px auto;
+    
+}
+.orange{
+    background-color: orange;
+    height: 150px;
+    width: 70%;
+    margin: auto;
+}
+.white{
+    display: grid;
+background-color: white;
+    width: 70%;
+    justify-content: center;
+    margin:  auto;
+    
+    
+    
+}
+.white img{
+    height: 180px;
+    width: 180px;
+    animation:  spin 1s infinite;
+    
+    
+}
+
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.green{
+    background-color: green;
+    height: 150px;
+    width: 70%;
+    margin: auto;
+}
+.name{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+.r1{
+    color: orange;
+    text-decoration: underline;
+}
+.r2{
+    color: rgb(192, 181, 181);
+    text-decoration: underline;
+}
+.r3{
+    color: green;
+    text-decoration: underline;
+}
