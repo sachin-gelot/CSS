@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.grid {
+  height: 640px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  
+}
+.list {
+  color: white;
+  overflow: hidden;
+}
+.list1 {
+  background: url(../../../Practice/09_Display/IMG/1.jpg) no-repeat center
+    center/cover;
+  grid-column: span 2;
+transition: scale 400ms;
+
+  width: 100%;
+}
+.list1:hover{
+  background: url(../../../Practice/09_Display/IMG/2.jpg) no-repeat center
+    center/cover;
+  grid-column: span 2;
+scale:120%;
+  width: 100%;
+}
+.list2 {
+  background: url(../../../Practice/09_Display/IMG/2.jpg) no-repeat center
+    center/cover;
+  grid-column: span 3;
+  grid-row: span 2;
+
+  width: 100%;
+}
+.list3 {
+  background: url(../../../Practice/09_Display/IMG/3.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list4 {
+  background: url(../../../Practice/09_Display/IMG/4.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list5 {
+  background: url(../../../Practice/09_Display/IMG/5.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list6 {
+  background: url(../../../Practice/09_Display/IMG/6.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list7 {
+  background: url(../../../Practice/09_Display/IMG/7.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.list8 {
+  background: url(../../../Practice/09_Display/IMG/8.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list9 {
+  background: url(../../../Practice/09_Display/IMG/9.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list10 {
+  background: url(../../../Practice/09_Display/IMG/10.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list11 {
+  background: url(../../../Practice/09_Display/IMG/11.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list12 {
+  background: url(../../../Practice/09_Display/IMG/12.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list13 {
+  background: url(../../../Practice/09_Display/IMG/20.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.list14 {
+  background: url(../../../Practice/09_Display/IMG/14.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list15 {
+  background: url(../../../Practice/09_Display/IMG/15.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list16 {
+  background: url(../../../Practice/09_Display/IMG/16.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list17 {
+  background: url(../../../Practice/09_Display/IMG/17.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
+.list18 {
+  background: url(../../../Practice/09_Display/IMG/18.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+}
