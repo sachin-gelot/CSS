@@ -29,7 +29,7 @@ background-color: white;
 .white img{
     height: 180px;
     width: 180px;
-    animation:  spin 1s infinite;
+    animation:  spin 20s infinite;
     
     
 }

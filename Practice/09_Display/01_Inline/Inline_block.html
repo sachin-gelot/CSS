@@ -5,9 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    div[class*="box"]{
+        border: 2px solid red;
+    }
+    .box1{
+        display: inline;
+    }
+    .box2{
+        display: block;
+    }
+    .box-3{
+        display:inline-block;
+
+    }
+    .box4{
+        display: contents;
+    }
+    .box5{
+        display: inline-table;
+    }
+</style>
 <body>
-    <div class="class">
-        0000
+   <header>
+    <div class="box1">box-1</div>
+    <div class="box2">box-2</div>
+    <div class="box3">
+        <div class="box-3">
+        helo
+        </div>
+        <div class="box-3">
+        helo
+        </div>
+        <div class="box-3">
+        helo
+        </div>
     </div>
+    <br><br><br>
+    <div class="box4">box-4</div>
+    <div class="box5"><table>
+        <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+        
+        </tr>
+        <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+        
+        </tr>
+        <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+        
+        </tr>
+        <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+        
+        </tr>
+        <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+        
+        </tr>
+        <tr>
+            <td>Hello</td>
+            <td>Hello</td>
+            <td>Hello</td>
+        
+        </tr>
+    </table></div>
+   </header>
 </body>
 </html>

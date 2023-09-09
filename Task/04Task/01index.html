@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 40%;
+        margin: 0 auto;
+        border: 2px solid black;
+    }
+    .head img{
+        width: 100%;
+        
+    }
+    .box-1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sign,.icon{
+        font-size: 30px;
+        font-weight: 400;
+        padding: 0 20px;
+    
+    }
+    .icon i{
+        padding: 10px;
+    }
+    .input input{
+        width: 90%;
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .input{
+        margin-left: 25px;
+        font-size: bold;
+    }
+#checkbox{
+    margin-left: 0px;
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="head">
+        <img src="./IMG/pexels-elijah-o'donnell-3473569.jpg" alt="">
+    </div>
+        <div class="box-1">
+            <div class="sign">
+                Sign in
+            </div>
+            <div class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="UserName">
+                <br>
+                <br>
+                <input type="password" name="Password" id="" placeholder="Password">
+                <br><br>
+                <input type="button" value="Sign In">
+                <br><br>
+                <input type="checkbox" name="Remember Mes" id="checkbox">
+                <label for="Remember me">Remember me</label>
+                <a href="#">Forgot Password</a>
+
+
+
+
+
+                <br><br>
+                <div class="footer">
+                    <p>Not A Member?</p>
+                    <a href="#">Sign Up</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
