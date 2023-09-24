@@ -1,6 +1,199 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+.header{
+    background:url(../IMG/background.jpeg) no-repeat;
+    width: 100%;
+    height: 739px;
+}
+.table{
+    width: 100%;
     
+}
+.tablerow{
+    width: 100%;
+    
+}
+.item1{
+    width: 5%;
+    padding-left: 50px;
+}
+.item2{
+    width: 70%;
+}
+.item3{
+    width: 20%;
+
+}
+.item3 input{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+}
+.item3 input:hover{
+  background-color: black;
+  color: white;
+}
+.item4{
+    width: 25%;
+    padding-right: 50px;
+   
+}
+.item4 input:hover{
+    background-color: white;
+    color: black;
+}
+.item4 input{
+    width: 100px;
+    height: 30px;
+   border-radius: 15px;
+    background-color: black;
+    color: white;
+   
+}
+.item1 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    
+}
+.item1 a:hover{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 0px 10px;
+    background-color: rgb(212, 214, 95);
+}
+
+.item2 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+.item2 a:hover{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(212, 214, 95);
+    border-radius: 10px;
+    padding: 0px 10px;
+
+}
+.door a{
+    font-size: 50px;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.select{
+height: 35px;
+padding-left: 50px;
+}
+.select1{
+height: 35px;
+padding-left: 50px;
+}
+.select input{
+height: 35px;
+margin: 0px 10px;
+padding: 10px;
+border-radius: 5px;
+background-color: black;
+color: white;
+
+
+}
+.select input:hover{
+height: 35px;
+margin: 0px 10px;
+padding: 10px;
+border-radius: 5px;
+background-color: white;
+color: black;
+
+
+}
+.last {
+    font-size: 18px;
+    color: black;
+}
+.last a{
+    font-size: 18px;
+    color: black;
+}
+.bg{
+
+}
+.bg1 img{
+    height: 300px;
+    width: 95%;
+}
+.bg2 img{
+    height: 300px;
+    width: 95%;
+}
+.bg3 img{
+    height: 300px;
+    width: 95%;
+}
+.para{
+    font-size: 30px;
+}
+.link{
+    font-size: 20px;
+}
+.table2{
+    width: 100%;
+       }
+       .potato1{
+        font-size: 40px;
+       }
+       .potato{
+        font-size: 20px;
+        text-align: right;
+       }
+   .table3{
+        width: 100%;
+        height: 800px;
+        
+
+       }
+    .table3 tr td{
+       
+        font-size: 15px;
+        padding-left: 200px;
+
+       }
+       .th1{
+        text-align: left;
+        font-size: 30px;
+
+       }
+       .th2{
+        text-align: right;
+        font-size: 20px;
+       }
+       .table4 img{
+        height: 50px;
+        width: 200px;
+       }
+.th3{
+    text-align: left;
+}
+.th4{
+    text-align: left;
+}
+.tbl tr td{
+text-align: right;
+}
+.tbl{
+    background-color: bisque;
 }
