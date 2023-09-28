@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Dela+Gothic+One&family=Edu+SA+Beginner&family=Noto+Sans+Pahawh+Hmong&family=Noto+Serif:ital,wght@1,900&family=Roboto+Slab:wght@600&family=Tilt+Prism&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+}
+#head-wrapper{
+    background: url(../IMG/Rectangle.png)no-repeat center center/cover;
+    height: 100vh;
+    /* width: 100vw; */
+}
+.logo{
+    padding: 40px 30px 0px;
+}
+.nav-upper{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.text-right{
+    text-align: end;
+    padding: 5px 100px 5px;
+}
+.first-span{
+    padding: 0px 60px 0px;
+}
+.nav-upper ul{
+   display: flex;
+   padding: 20px 10px 0px;
+   
+}
+.nav-upper ul li{
+    font-size: 21px;
+    word-spacing: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+   
+}
+.nav-upper ul li a{
+ text-decoration: none;
+ padding: 0px 20px 0px;
+ color: #3d2514;
+ font-family: "Alfa Slab One";
+}
+
+.head-content{
+    position: relative;
+    top: 300px ;
+    left: 30px;
+    display: inline-block;
+    
+}
+.head-content p{
+    font-size: 20px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+    padding: 20px 20px 50px;
+}
+.head-content h1{
+    font-size: 114px;
+line-height: 62px;
+text-transform: uppercase;
+color: #3d2514;
+font-weight: 400;
+font-family: 'Alice', serif;
+font-family: 'Noto Serif', serif;
+
+filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+padding-bottom: 10px;
+
+}
+.head-content h2{
+    font-size: 56px;
+    line-height: 62px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    filter: drop-shadow(3.936px 4.528px 0px #fee8bc);
+    padding: 20px 20px 30px;
+    font-family: 'Alice', serif;
+font-family: 'Noto Serif', serif;
+/* margin: 30px 0px; */
+}
+#head-wrapper img{
+    position: absolute;
+}
+img[class*="image"]{
+    height: 400px;
+}
+#head-wrapper .image-1{
+    bottom: 190px;
+    right: 450px;
+}
+#head-wrapper .image-2{
+    bottom: 150px;
+    right: 150px;
+    /* box-shadow: 20px 30px 50px 0px  black; */
+}
+#head-wrapper .image-3{
+    bottom: 150px;
+    right: 200px;
+}
+#head-wrapper .img{
+    
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+    text-align: center;
+    position: absolute;
+    bottom: 120px;
+    right: 550px;
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+    background-color: orangered;
+    border: 3px dashed black;
+    border-radius: 50%;
+    align-items: center;
+
+}
+/* section start  */
+#section-wraper{
+display: flex;
+padding: 10px 50px 20px;
+height: 600px;
+align-items: center;
+}
+.left-img{
+border: 2px solid black;
+display: flex;
+align-items: center;
+}
+.right-img{
+    border: 2px solid black;
+    text-align: center;
+}
+.right-img-1{
+    padding: 20px 0;
+    text-align: center;
+}
